@@ -11,14 +11,14 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 function FreeSolo() {
   return (
     <div style={{ width: 300 }}>
-      <Autocomplete
+      {/* <Autocomplete
         id="free-solo-demo"
         freeSolo
         options={top100Films.map((option) => option.title)}
         renderInput={(params) => (
           <TextField {...params} label="freeSolo" margin="normal" variant="outlined" />
         )}
-      />
+      /> */}
       <Autocomplete
         freeSolo
         id="free-solo-2-demo"
