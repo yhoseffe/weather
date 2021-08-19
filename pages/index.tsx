@@ -37,13 +37,8 @@ function FreeSolo() {
         )}
       />
     </div>
-    <div style={{ 
-      width: 200,
-      margin="normal",
-      variant="outlined"
-   }}>
-    
-   </div>
+    <div style={{ width: 200 }}>
+    </div>
 
 /*Three weather boxes*/
 
