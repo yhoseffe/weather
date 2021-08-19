@@ -37,10 +37,20 @@ function FreeSolo() {
         )}
       />
     </div>
-    <div style={{ width: 200 }}>
-    </div>
-
 /*Three weather boxes*/
+
+<div style={{ 
+        width: 800
+     }}>
+      <Autocomplete
+        id="free-solo-demo"
+        freeSolo
+        options={top100Films.map((option) => option.title)}
+        renderInput={(params) => (
+          <TextField {...params} label="freeSolo" margin="normal" variant="outlined" />
+        )}
+      />
+    </div>
 
   );
 }
