@@ -13,9 +13,7 @@ function FreeSolo() {
     <div style={{ 
         width: 800,
         display: "flex",
-        flexDirection: "column",
         alignItems: "center",
-        justifyContent: "center"
      }}>
       {/* <Autocomplete
         id="free-solo-demo"
