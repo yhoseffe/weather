@@ -38,7 +38,7 @@ function FreeSolo() {
   );
 }
 
-export default function
+export default FreeSolo
 // }
 // export default Home
 
