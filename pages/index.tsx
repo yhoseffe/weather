@@ -38,8 +38,8 @@ function FreeSolo() {
       />
     </div>
     <div style={{ 
-      width: 200
-      margin="normal"
+      width: 200,
+      margin="normal",
       variant="outlined"
    }}>
     
