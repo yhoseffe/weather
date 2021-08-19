@@ -1,12 +1,12 @@
 import React from 'react'
-import Logo from '@components/atoms/Logo'
+// import Logo from '@components/atoms/Logo'
 /* eslint-disable no-use-before-define */
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 
 // const Home: React.FC = () => {
-  /* return <Logo />*/
-/* eslint-disable no-use-before-define */
+//   /* return <Logo />*/
+// /* eslint-disable no-use-before-define */
 
 export default function FreeSolo() {
   return (
@@ -142,5 +142,5 @@ const top100Films = [
   { title: 'Monty Python and the Holy Grail', year: 1975 },
 ];
 
-}
-export default Home
+// }
+// export default Home
