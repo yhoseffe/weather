@@ -4,8 +4,8 @@ import Logo from '@components/atoms/Logo'
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 
-const Home: React.FC = () => {
-  return <Logo />
+// const Home: React.FC = () => {
+  /* return <Logo />*/
 /* eslint-disable no-use-before-define */
 
 export default function FreeSolo() {
