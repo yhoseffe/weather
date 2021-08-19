@@ -8,7 +8,7 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 //   /* return <Logo />*/
 // /* eslint-disable no-use-before-define */
 
-export default function FreeSolo() {
+function FreeSolo() {
   return (
     <div style={{ width: 300 }}>
       <Autocomplete
@@ -37,6 +37,10 @@ export default function FreeSolo() {
     </div>
   );
 }
+
+export default function
+// }
+// export default Home
 
 // Top 100 films as rated by IMDb users. http://www.imdb.com/chart/top
 const top100Films = [
@@ -142,5 +146,4 @@ const top100Films = [
   { title: 'Monty Python and the Holy Grail', year: 1975 },
 ];
 
-// }
-// export default Home
+
