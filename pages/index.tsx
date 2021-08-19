@@ -13,14 +13,6 @@ function FreeSolo() {
     <div style={{ 
         width: 800
      }}>
-      {/* <Autocomplete
-        id="free-solo-demo"
-        freeSolo
-        options={top100Films.map((option) => option.title)}
-        renderInput={(params) => (
-          <TextField {...params} label="freeSolo" margin="normal" variant="outlined" />
-        )}
-      /> */}
       <Autocomplete
         freeSolo
         id="free-solo-2-demo"
@@ -37,38 +29,6 @@ function FreeSolo() {
         )}
       />
     </div>
-/*Three weather boxes*/
-
-function weatherBox() {
-  return (
-    <div style={{ 
-        width: 200
-     }}>
-      <Autocomplete
-        id="free-solo-demo"
-        freeSolo
-        options={top100Films.map((option) => option.title)}
-        renderInput={(params) => (
-          <TextField {...params} label="freeSolo" margin="normal" variant="outlined" />
-        )}
-      />
-      <Autocomplete
-        freeSolo
-        id="free-solo-2-demo"
-        disableClearable
-        options={top100Films.map((option) => option.title)}
-        renderInput={(params) => (
-          <TextField
-            {...params}
-            label="Search input"
-            margin="normal"
-            variant="outlined"
-            InputProps={{ ...params.InputProps, type: 'search' }}
-          />
-        )}
-      />
-    </div>
-
   );
 }
 
