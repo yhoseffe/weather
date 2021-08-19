@@ -10,7 +10,13 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 
 function FreeSolo() {
   return (
-    <div style={{ width: 800 }}>
+    <div style={{ 
+        width: 800
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center"
+     }}>
       {/* <Autocomplete
         id="free-solo-demo"
         freeSolo
