@@ -3,6 +3,8 @@ import React from 'react'
 /* eslint-disable no-use-before-define */
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
+import SimpleContainer from '@components/atoms/Cotainer';
+
 
 // const Home: React.FC = () => {
 //   /* return <Logo />*/
@@ -10,6 +12,7 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 
 function FreeSolo() {
   return (
+    <Container maxWidth="sm">
     <div style={{ 
         width: 800
      }}>
@@ -21,7 +24,7 @@ function FreeSolo() {
         renderInput={(params) => (
           <TextField
             {...params}
-            label="Search input"
+            label="City"
             margin="normal"
             variant="outlined"
             InputProps={{ ...params.InputProps, type: 'search' }}
@@ -29,10 +32,12 @@ function FreeSolo() {
         )}
       />
     </div>
-  );
+    </Container>
+
+    SimpleContainer()
+  )
 }
 
-export default weatherBox
 export default FreeSolo
 // }
 // export default Home
