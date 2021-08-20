@@ -3,8 +3,6 @@ import React from 'react'
 /* eslint-disable no-use-before-define */
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
-import SimpleContainer from '@components/atoms/Cotainer';
-
 
 // const Home: React.FC = () => {
 //   /* return <Logo />*/
