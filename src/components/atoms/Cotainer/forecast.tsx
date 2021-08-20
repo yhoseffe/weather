@@ -1,10 +1,9 @@
-import React from 'react';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
+import React from 'react'
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles'
+import Paper from '@material-ui/core/Paper'
+import Grid from '@material-ui/core/Grid'
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
+const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
       maxWith: 1200,
@@ -16,7 +15,7 @@ const useStyles = makeStyles((theme: Theme) =>
       color: theme.palette.text.secondary,
     },
   }),
-);
+)
 
 export default function CenteredGrid() {
   const classes = useStyles();
