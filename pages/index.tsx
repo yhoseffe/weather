@@ -26,7 +26,9 @@ const Home: React.FC = () => {
       />
   <Container maxWidth="md">
 <Grid container direction="row" justifyContent="center">
-  <Grid container></Grid>
+  <Grid container>
+  <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+  </Grid>
 </Grid>
 </Container>
     </div>
