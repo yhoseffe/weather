@@ -8,7 +8,8 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 //   /* return <Logo />*/
 // /* eslint-disable no-use-before-define */
 
-function FreeSolo() {
+const Home: React.FC = () => {
+// function FreeSolo() {
   return (
         <div style={{ 
         width: 800
@@ -33,7 +34,7 @@ function FreeSolo() {
   )
 }
 
-export default FreeSolo
+export default Home
 // }
 // export default Home
 
