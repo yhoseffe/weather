@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
     </>
   )
 }
-export default 
+export default HomePage
 
 
 
