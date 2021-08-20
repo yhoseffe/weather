@@ -28,7 +28,11 @@ const Home: React.FC = () => {
 <Grid container direction="row" justifyContent="center">
   <Grid container>
   <TextField id="outlined-basic" variant="outlined" />
+  </Grid>
+  <Grid container>
   <TextField id="outlined-basic" variant="outlined" />
+  </Grid>
+  <Grid container>
   <TextField id="outlined-basic" variant="outlined" />
   </Grid>
 </Grid>
