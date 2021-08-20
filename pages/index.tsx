@@ -12,9 +12,10 @@ import SimpleContainer from '@components/atoms/Cotainer';
 
 function FreeSolo() {
   return (
-    <Container maxWidth="sm">
-    <div style={{ 
-        width: 800
+        <div style={{ 
+        width: 800;
+        margin-right: auto;
+        margin-left: auto;
      }}>
       <Autocomplete
         freeSolo
@@ -32,9 +33,7 @@ function FreeSolo() {
         )}
       />
     </div>
-    </Container>
-
-    SimpleContainer()
+     
   )
 }
 
