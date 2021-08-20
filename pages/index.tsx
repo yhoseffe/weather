@@ -31,6 +31,12 @@ const Home: React.FC = () => {
       </Grid>
     </Container>/
     </div>
+
+<Container maxWidth="md">
+<Grid container direction="row" justifyContent="center">
+  <Grid container><h>Test</h></Grid>
+</Grid>
+</Container>
   )
 }
 export default Home
