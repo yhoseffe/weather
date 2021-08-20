@@ -44,8 +44,9 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       display: 'flex',
+      maxWidth: 1200,
       flexWrap: 'wrap',
-      '& > *': {
+      paper: {
         margin: theme.spacing(1),
         width: theme.spacing(16),
         height: theme.spacing(16),
@@ -59,9 +60,9 @@ export default function CenteredGrid() {
 
   return (
     <div className={classes.root}>
-      <Paper elevation={0} />
-      <Paper />
-      <Paper elevation={3} />
+      <Paper className={classes.paper}>Weather weather lang</Paper>
+      <Paper className={classes.paper}>Weather weather lang</Paper>
+      <Paper className={classes.paper}>Weather weather lang</Paper> 
     </div>
   );
 }
