@@ -6,10 +6,9 @@ import Autocomplete from '@material-ui/lab/Autocomplete'
 
 const Home: React.FC = () => {
   return (
-    //     <div style={{ 
-    //     width: 800
-    //  }}>
-
+        <div style={{ 
+        width: 800
+     }}>
     <Container maxWidth="md">
       <Grid container direction="row" justifyContent="center">
       <Autocomplete
@@ -29,7 +28,7 @@ const Home: React.FC = () => {
       />
       </Grid>
     </Container>/
-    //</div>
+    </div>
   )
 }
 export default Home
