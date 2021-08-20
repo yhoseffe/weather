@@ -9,11 +9,10 @@ import Grid from '@material-ui/core/Grid'
 const Home: React.FC = () => {
   return (
         <div style={{ 
-        width: 800
+        maxwidth: 1200
+        margin:'auto'
      }}>
-    <Container maxWidth="md">
-      <Grid container direction="row" justifyContent="center">
-      <Autocomplete
+          <Autocomplete
         freeSolo
         id="free-solo-2-demo"
         disableClearable
@@ -28,9 +27,7 @@ const Home: React.FC = () => {
           />
         )}
       />
-      </Grid>
-    </Container>
-    <Container maxWidth="md">
+        <Container maxWidth="md">
 <Grid container direction="row" justifyContent="center">
   <Grid container></Grid>
 </Grid>
