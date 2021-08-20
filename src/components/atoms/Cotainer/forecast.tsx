@@ -40,20 +40,19 @@ import React from 'react';
 import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles((theme) =>
   createStyles({
     root: {
-      display: 'flex',
+      margin: 'auto',
       maxWidth: 1200,
-      flexWrap: 'wrap',
-      paper: {
-        margin: theme.spacing(1),
-        width: theme.spacing(16),
-        height: theme.spacing(16),
-      },
-    },
-  }),
-);
+      flexWrap: 1,
+    }
+    paper: {
+              padding: theme.spacing(2),
+              textAlign: 'center',
+              color: theme.palette.text.secondary,
+            },
+      }))
 
 export default function CenteredGrid() {
   const classes = useStyles();
