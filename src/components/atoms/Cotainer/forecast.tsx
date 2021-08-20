@@ -6,7 +6,7 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
-      maxWith: 1200,
+      maxWith: 800,
       margin: 'auto',
     },
     paper: {
@@ -20,9 +20,9 @@ export default function CenteredGrid() {
   const classes = useStyles()
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} >
       <Grid container spacing={3}>
-        <Grid item xs>
+        <Grid item xs="4">
           <Paper className={classes.paper}>Weather weather lang</Paper>
         </Grid>
         <Grid item xs>
