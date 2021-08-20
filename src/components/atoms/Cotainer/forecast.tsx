@@ -14,8 +14,7 @@ const useStyles = makeStyles((theme) => ({
       padding: theme.spacing(10),
       textAlign: 'center',
       color: theme.palette.text.secondary,
-      variant: "h3",
-          
+                
     },
   }))
 
@@ -38,33 +37,3 @@ export default function CenteredGrid() {
     </div>
   );
 }
-
-// import React from 'react';
-// import { makeStyles } from '@material-ui/core/styles';
-// import Paper from '@material-ui/core/Paper';
-
-// const useStyles = makeStyles((theme: Theme) =>  ({
-//       root: {
-//       flexWrap: 1,
-//       margin: 'auto',
-//       maxWidth: 1200,
-      
-//     }
-//     paper: {
-//     padding: theme.spacing(2),
-//     textAlign: 'center',
-//     color: theme.palette.text.secondary,
-//             },
-//       }))
-
-// export default function CenteredGrid() {
-//   const classes = useStyles()
-
-//   return (
-//     <div className={classes.root}>
-//       <Paper className={classes.paper}>Weather weather lang</Paper>
-//       <Paper className={classes.paper}>Weather weather lang</Paper>
-//       <Paper className={classes.paper}>Weather weather lang</Paper> 
-//     </div>
-//   );
-// }
