@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
       padding: theme.spacing(10),
       textAlign: 'center',
       color: theme.palette.text.secondary,
+      variant: "h3",
           
     },
   }))
