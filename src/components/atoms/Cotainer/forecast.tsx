@@ -42,19 +42,20 @@ import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles((theme) =>  ({
       root: {
+      flexWrap: 1,
       margin: 'auto',
       maxWidth: 1200,
-      flexWrap: 1,
+      
     }
     paper: {
-              padding: theme.spacing(2),
-              textAlign: 'center',
-              color: theme.palette.text.secondary,
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
             },
       }))
 
 export default function CenteredGrid() {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
     <div className={classes.root}>
