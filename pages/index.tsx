@@ -1,16 +1,17 @@
 import React from 'react'
 import TextField from '@material-ui/core/TextField'
 import Autocomplete from '@material-ui/lab/Autocomplete'
-import Container from '@material-ui/core/Container'
-import Grid from '@material-ui/core/Grid'
 
 /* eslint-disable no-use-before-define */
 
 const Home: React.FC = () => {
   return (
-        <div style={{ 
-        width: 800
-     }}>
+    //     <div style={{ 
+    //     width: 800
+    //  }}>
+
+    <Container maxWidth="md">
+      <Grid container direction="row" justifyContent="center">
       <Autocomplete
         freeSolo
         id="free-solo-2-demo"
@@ -26,22 +27,14 @@ const Home: React.FC = () => {
           />
         )}
       />
-    </div>
+      </Grid>
+    </Container>/
+    //</div>
   )
 }
 export default Home
 
-const PageLayout: React.FC = ({ children }) => {
-  return (
-    <Container maxWidth="md">
-      <Grid container direction="row" justifyContent="center">
-        <Grid container>{children}</Grid>
-      </Grid>
-    </Container>
-  )
-}
 
-export default PageLayout
 
 
 
