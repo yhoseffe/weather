@@ -17,7 +17,7 @@ const Home: React.FC = () => {
         renderInput={(params) => (
           <TextField
             {...params}
-            label="City"
+            label="Search City"
             margin="normal"
             variant="outlined"
             InputProps={{ ...params.InputProps, type: 'search' }}
@@ -27,7 +27,9 @@ const Home: React.FC = () => {
   <Container maxWidth="md">
 <Grid container direction="row" justifyContent="center">
   <Grid container>
-  <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+  <TextField id="outlined-basic" variant="outlined" />
+  <TextField id="outlined-basic" variant="outlined" />
+  <TextField id="outlined-basic" variant="outlined" />
   </Grid>
 </Grid>
 </Container>
