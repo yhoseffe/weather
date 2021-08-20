@@ -1,15 +1,12 @@
 import React from 'react'
-// import Logo from '@components/atoms/Logo'
-/* eslint-disable no-use-before-define */
-import TextField from '@material-ui/core/TextField';
-import Autocomplete from '@material-ui/lab/Autocomplete';
+import TextField from '@material-ui/core/TextField'
+import Autocomplete from '@material-ui/lab/Autocomplete'
+import Container from '@material-ui/core/Container'
+import Grid from '@material-ui/core/Grid'
 
-// const Home: React.FC = () => {
-//   /* return <Logo />*/
-// /* eslint-disable no-use-before-define */
+/* eslint-disable no-use-before-define */
 
 const Home: React.FC = () => {
-// function FreeSolo() {
   return (
         <div style={{ 
         width: 800
@@ -30,13 +27,22 @@ const Home: React.FC = () => {
         )}
       />
     </div>
-     
   )
 }
 
+const PageLayout: React.FC = ({ children }) => {
+  return (
+    <Container maxWidth="md">
+      <Grid container direction="row" justifyContent="center">
+        <Grid container>{children}</Grid>
+      </Grid>
+    </Container>
+  )
+}
+
+export default PageLayout
 export default Home
-// }
-// export default Home
+
 
 // Top 100 films as rated by IMDb users. http://www.imdb.com/chart/top
 const top100Films = [
