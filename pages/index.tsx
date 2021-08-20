@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Home from '@components/atoms/Cotainer/search'
+import CenteredGrid from '@components/atoms/Cotainer/forecast'
 // import SEO from '@components/SEO'
 
 const HomePage: React.FC = () => {
@@ -9,6 +10,7 @@ const HomePage: React.FC = () => {
     <>
       {/* <SEO title="Weather forecast" description="A 3-day weather forecasting app" /> */}
       <Home />
+      <CenteredGrid />
     </>
   )
 }
