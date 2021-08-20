@@ -32,7 +32,7 @@ const Home: React.FC = () => {
     </Container>
     <Container maxWidth="md">
 <Grid container direction="row" justifyContent="center">
-  <Grid container><h>Test</h></Grid>
+  <Grid container></Grid>
 </Grid>
 </Container>
     </div>
