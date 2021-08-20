@@ -40,9 +40,8 @@ import React from 'react';
 import { createStyles, makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 
-const useStyles = makeStyles((theme) =>
-  createStyles({
-    root: {
+const useStyles = makeStyles((theme) =>  ({
+      root: {
       margin: 'auto',
       maxWidth: 1200,
       flexWrap: 1,
