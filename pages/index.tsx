@@ -29,6 +29,7 @@ const Home: React.FC = () => {
     </div>
   )
 }
+export default Home
 
 const PageLayout: React.FC = ({ children }) => {
   return (
@@ -41,7 +42,7 @@ const PageLayout: React.FC = ({ children }) => {
 }
 
 export default PageLayout
-export default Home
+
 
 
 // Top 100 films as rated by IMDb users. http://www.imdb.com/chart/top
