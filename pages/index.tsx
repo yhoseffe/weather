@@ -11,9 +11,9 @@ import Autocomplete from '@material-ui/lab/Autocomplete';
 function FreeSolo() {
   return (
         <div style={{ 
-        width: 800;
-        margin-right: auto;
-        margin-left: auto;
+        width: 800,
+        margin-right: auto,
+        margin-left: auto
      }}>
       <Autocomplete
         freeSolo
