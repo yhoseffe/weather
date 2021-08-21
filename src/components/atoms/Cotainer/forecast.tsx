@@ -14,12 +14,8 @@ const useStyles = makeStyles((theme) => ({
       padding: theme.spacing(10),
       textAlign: 'center',
       color: theme.palette.text.secondary,         
-    },
-    paperSpacer: {
-        height: 50,
-        textAlign: 'center',
-        color: theme.palette.text.secondary,     
-      },
+    }
+    
   }))
 
 export default function CenteredGrid() {
@@ -27,8 +23,7 @@ export default function CenteredGrid() {
 
   return (
     <div className={classes.root} >
-         <Grid>
-            <Paper className={classes.paperSpacer}> </Paper>
+         <Grid container spacing={3}>
         </Grid>
       <Grid container spacing={3}>
         <Grid item xs>
