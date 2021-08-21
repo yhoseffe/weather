@@ -25,7 +25,7 @@ export default function CenteredGrid() {
     <div className={classes.root} >
       <Grid container spacing={3}>
         <Grid item xs>
-          <Paper className={classes.paper}>Yesterday</Paper>
+          <Paper className={classes.paper} elevation={3}>Yesterday</Paper>
         </Grid>
         <Grid item xs>
           <Paper className={classes.paper}>Today</Paper>
