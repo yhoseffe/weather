@@ -28,17 +28,17 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root} >
          <Grid>
-            <Paper clasName={classes.paperSpacer}> </Paper>
+            <Paper className={classes.paperSpacer}> </Paper>
         </Grid>
       <Grid container spacing={3}>
         <Grid item xs>
-          <Paper className={classes.paper} elevation={3}>Yesterday</Paper>
+          <Paper className={classes.paper} elevation={2}>Yesterday</Paper>
         </Grid>
         <Grid item xs>
-          <Paper className={classes.paper}>Today</Paper>
+          <Paper className={classes.paper} elevation={2}>Today</Paper>
         </Grid>
         <Grid item xs>
-          <Paper className={classes.paper}>Tomorrow</Paper>
+          <Paper className={classes.paper} elevation={2}>Tomorrow</Paper>
         </Grid>
       </Grid>
     </div>
