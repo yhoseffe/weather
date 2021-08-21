@@ -24,13 +24,13 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root} >
       <Grid container spacing={3}>
-        <Grid item xs={4}>
+        <Grid item xs>
           <Paper className={classes.paper}>Yesterday</Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs>
           <Paper className={classes.paper}>Today</Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs>
           <Paper className={classes.paper}>Tomorrow</Paper>
         </Grid>
       </Grid>
