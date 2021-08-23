@@ -8,12 +8,11 @@ import { getSuggestedPlaces } from 'src/api/weatherService'
 
 const Home: React.FC = () => {
   const getPlaces = async () => {
-    const response = getSuggestedPlaces('Inabanga Bohol')
+    const response = await getSuggestedPlaces('Inabanga Bohol')
     console.log('response: %o ', response)
   }
   
   useEffect(() => {
-
    getPlaces ()
 
   }, [])
