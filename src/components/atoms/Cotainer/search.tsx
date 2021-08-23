@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import TextField from '@material-ui/core/TextField'
 import Autocomplete from '@material-ui/lab/Autocomplete'
-import { getSuggestedPlaces } 'src/api/weatherServices'
+import { getSuggestedPlaces } from 'src/api/weatherService'
 
 
 /* eslint-disable no-use-before-define */
