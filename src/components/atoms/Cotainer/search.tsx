@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import TextField from '@material-ui/core/TextField'
 import Autocomplete from '@material-ui/lab/Autocomplete'
+import { getSuggestedPlaces } 'src/api/weatherServices'
 
 
 /* eslint-disable no-use-before-define */
 
 const Home: React.FC = () => {
+  const getPlaces = async () => {
+    const response = getSuggestedPlaces('Inabanga Bohol')
+    console.log('response: %o ', response)
+  }
+  
+  useEffect(() => {
+
+   getPlaces ()
+
+  }, [])
+
   return (
         <div style={{ maxWidth: 1200, margin:'auto' }}>
           <Autocomplete
