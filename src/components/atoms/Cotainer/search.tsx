@@ -8,7 +8,7 @@ const Home: React.FC = () => {
     name: string
   }
 
-  const [places, setPlaces] = useState([])
+  const [places, setPlaces] = useState()
 
   const getPlaces = async (input?: string) => {
     const trimmedInput = input?.trim()
@@ -25,7 +25,7 @@ const Home: React.FC = () => {
   }, [])
 
   return (
-    <div style={{ maxWidth: '100%', margin: 'auto' }}>
+    <div style={{ maxWidth: 1200, margin: 'auto' }}>
       <Autocomplete
         freeSolo
         id="free-solo-2-demo"
