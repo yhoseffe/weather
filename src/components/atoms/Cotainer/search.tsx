@@ -3,12 +3,12 @@ import TextField from '@material-ui/core/TextField'
 import Autocomplete from '@material-ui/lab/Autocomplete'
 import { getSuggestedPlaces } from 'src/api/weatherService'
 
-const Home: React.FC = () => {
-  interface getPlaces {
-    name: string
-  }
+interface City {
+  name: string
+}
 
-  const [places, setPlaces] = useState()
+const Home: React.FC = () => {
+  const [places, setPlaces] = useState<City[]>([])
 
   const getPlaces = async (input?: string) => {
     const trimmedInput = input?.trim()
