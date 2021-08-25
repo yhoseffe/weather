@@ -4,9 +4,9 @@ import Autocomplete from '@material-ui/lab/Autocomplete'
 import { getSuggestedPlaces } from 'src/api/weatherService'
 
 const Home: React.FC = () => {
-  // interface getPlaces {
-  //   name: string
-  // }
+  interface getPlaces {
+    name: string
+  }
 
   const [places, setPlaces] = useState([])
 
