@@ -4,11 +4,11 @@ import Autocomplete from '@material-ui/lab/Autocomplete'
 import { getSuggestedPlaces } from 'src/api/weatherService'
 
 const Home: React.FC = () => {
-  interface getPlaces {
-    name: string
-  }
+  // interface getPlaces {
+  //   name: string
+  // }
 
-  const [places, setPlaces] = useState()
+  const [places, setPlaces] = useState([])
 
   const getPlaces = async (input?: string) => {
     const trimmedInput = input?.trim()
@@ -22,7 +22,6 @@ const Home: React.FC = () => {
 
   useEffect(() => {
     getPlaces()
-    console.log(places)
   }, [])
 
   return (
